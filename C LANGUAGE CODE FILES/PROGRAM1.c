@@ -1,6 +1,6 @@
 # include <stdio.h>
 int main(){
-    int dist; int m; int feet; int inch; int cm;
+    int dist, m, feet, inch, cm;
 
     printf("Enter any distance in km\n");
 

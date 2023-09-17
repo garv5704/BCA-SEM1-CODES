@@ -1,6 +1,6 @@
 # include<stdio.h>
 int main(){
-    int length; int breadth; int radius; int aor; int perimeter; int aoc; int circumference;
+    int length, breadth, radius, aor, perimeter, aoc, circumference;
 
     printf("Enter the length and breadth for rectangle and radius for circle :\n");
     scanf("%d%d%d", &length, &breadth, &radius);
