@@ -1,12 +1,12 @@
 # include<stdio.h>
 int main(){
-    int f; int c;
+    float f, c;
 
     printf("ENTER A TEMPERATURE IN FARHENHEIT\n");
-    scanf("%d",&f);
+    scanf("%f",&f);
 
     c = (f-32)*5/9;
-     printf("this is the temperture in celsius :%d", c);
+     printf("this is the temperture in celsius :%f", c);
 
-
+return(0);
 }
