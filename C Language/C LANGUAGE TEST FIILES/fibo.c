@@ -1,23 +1,21 @@
 #include<stdio.h>
 
-int fibonacci(int n);
-
+int fibo(int n);
 
 int main(){
-printf("%d",fibonacci(6));
+printf("fibonacci is %d", fibo(5));
 return 0;
 }
 
-int fibonacci(int n){
+int fibo(int n){
+
     if(n == 0){
         return 0;
     }
     if(n == 1){
         return 1;
     }
-    int fibNm1 = fibonacci(n-1);
-    int fibNm2 = fibonacci(n-2);
-    int fibN = fibNm1 + fibNm2;
-    return fibN;
 
+    int fiboN = fibo(n-1) + fibo(n-2);
+    return fiboN;
 }
