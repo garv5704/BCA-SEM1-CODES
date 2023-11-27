@@ -11,6 +11,5 @@ int main()
     printf("str : %s", str);
     printf("\nstrlen = %d", strlen(str));
 
-    getch();
     return 0;
 }
