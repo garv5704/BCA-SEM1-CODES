@@ -24,7 +24,7 @@ int main(){
         sum = a/b;
         break;
     
-    default:
+    default: 
     printf("Not an operator");
         break;
     }
