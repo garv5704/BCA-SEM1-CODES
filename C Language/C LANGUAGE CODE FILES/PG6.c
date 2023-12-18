@@ -4,6 +4,7 @@
 #include<stdio.h>
 void main()
 { 
+    int age;
     if (age >= 18);
     {
         printf("you got admission");
