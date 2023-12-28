@@ -18,5 +18,8 @@ printf("copied second string to the first is %s\n\n", name);//prints the copied 
 strncpy(name, name_2, 4);
 printf("nth copied string is %s\n\n", name);
 
+strrev(name);
+printf("reversed string is %s\n\n", name);
+
 return 0;
 }
